@@ -9,7 +9,7 @@
 </template>
 
 <style>
-#app {
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -28,5 +28,20 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#nav {
+  background: #42b983;
+  padding: 30px;
+  text-align: center;
+  color: aliceblue;
+}
+#nav a {
+  color: aliceblue;
 }
 </style>
